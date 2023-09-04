@@ -1,20 +1,20 @@
 In 3-tier application we have
 
-web/frontend tier
-app/api/backend tier
-db tier
+1. web/frontend tier
+2. app/api/backend tier
+3. db tier
 
-In AWS, we have Regions, AZ(Availability Zones)
-AMI- Amazon Machine Image  (These are like our operating Systems)
+In AWS, we have Regions, AZ(Availability Zones).
+AMI- Amazon Machine Image  (These are like our operating Systems).
 
 In AWS mostly resources are regions based, only few services are global.
 
-Global Services Example : S3, IAM
-Regional Based services: Ec2
+1. Global Services Example : S3, IAM
+2. Regional Based services: Ec2
 
 AZ is for High Availaility purpose, instead of creating the resources in one AZ we can place the infra in multiple AZ's. If something wrong with one AZ, we can access our infra from another AZ.
 
-HA(High Availability) - we can create resources in atleast 2 AZ's
+HA(High Availability) - we can create resources in atleast 2 AZ's.
 DR(Disaster Recovery) - we can move the resources to another region or another AZ.
 
 Here in this application we frequently use nginx.
@@ -23,7 +23,7 @@ OS + Install package + configure service/package
 
 We can create the instance and install the nginx , create the image out of it.
 
-We can create the image when the server is stable or its running
+We can create the image when the server is stable or its running.
 
 stable vs running
 
@@ -48,7 +48,7 @@ java -> .jar
 .net - dll
 all languages --> .zip
 
-RDBMS --> SQL --> Relation Database management system -->It has Rows and Columns
+RDBMS --> SQL --> Relation Database management system -->It has Rows and Columns.
 NoSQL --> No SQL -> no tables no rows and columns --> data is based on documents and collections --> js files
 
 By default some servers mostly DB servers, you can't open them apart from local server. this is for security
@@ -57,19 +57,26 @@ By default some servers mostly DB servers, you can't open them apart from local 
 system/service user
 -------------------
 user --> human
+
 system(non-human) --> on behalf of users, applications have dedicated users for security
 
 install dependencies/libraries --> 
+
 maven --> pom.xml
+
 nodejs/js --> package.json
+
 requirements.txt --> python
 
 
 Google the below Topics
 
 What is FFirewall?
+
 What is VPN?
+
 RDBMS vs NoSQL
+
 Forward vs Reverse proxy
 
 
